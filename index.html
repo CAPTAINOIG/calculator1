@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="fontawesome-free-6.3.0-web/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <div class="col-lg-3 col-md-7 col-sm-9 mt-lg-4 mt-md-4 mt-sm-2 mx-auto shadow bg-light rounded p-4">
+        <input type="text" placeholder="0" class="form-control w-70" id="input" disabled>
+        <!-- <div class="disp"></div> -->
+        <div class="text-center mt-3">
+            <tr>
+                <td><button onclick="number('mc')" class="num8">mc</button></td>
+                <td><button onclick="number('mr')" class="num8">mr</button></td>
+                <td><button onclick="DEL('m-')" class="num8">m-</button></td>
+                <td><button onclick="number()" class="num8">m+</button></td>       
+            </tr>
+        </div>
+        <div class="text-center mt-1">
+            <tr>
+                <td><button onclick="erase('CE')" class="num1">CE</button></td>
+                <td><button onclick="number('2')" class="num2">2</button></td>
+                <td><button onclick="number('%')" class="num3">%</button></td>
+                <td><button onclick="number('/')" class="num7">➗</button></td>       
+            </tr>
+        </div>
+        <div class="text-center mt-1">
+            <tr>
+                <td><button onclick="number('7')" class="num1">7</button></td>
+                <td><button onclick="number('8')" class="num2">8</button></td>
+                <td><button onclick="number('9')" class="num3">9</button></td>
+                <td><button onclick="number('*')" class="num7">✖</button></td>
+            </tr>
+        </div>
+        <div class="text-center mt-1">
+            <tr>
+                <td><button onclick="number('4')" class="num1">4</button></td>
+                <td><button onclick="number('5')" class="num2">5</button></td>
+                <td><button onclick="number('6')" class="num3">6</button></td>
+                <td><button onclick="number('-')" class="num7">➖</button></td>       
+            </tr>
+        </div>
+        <div class="text-center mt-1">
+            <tr>
+                <td><button onclick="number('1')" class="num1">1</button></td>
+                <td><button onclick="number('2')" class="num2">2</button></td>
+                <td><button onclick="number('3')" class="num3">3</button></td>
+                <td><button onclick="number('+')" class="num7">➕</button></td>       
+            </tr>
+        </div>
+        <div class="text-center mt-1">
+            <tr>
+                <td><button onclick="number('0')" class="num1">0</button></td>
+                <td><button onclick="number()" class="num2">.</button></td>
+                <td><button onclick="number()" class="num3">+/-</button></td>
+                <td><button onclick="equal('=')" class="num7">=</button></td>       
+            </tr>
+        </div>
+        <div class="text-center mt-1">
+            <tr>
+                <td><button onclick="number()" class="num1">♓</button></td>
+                <td><button onclick="number()" class="num2">#</button></td>
+                <td><button onclick="number()" class="num3">R2</button></td>
+                <td><button onclick="number()" class="num9">R0</button></td>       
+            </tr>
+        </div>
+    </div>
+    <script>
+        function number (e) {
+            input.value += e
+            console.log(e);
+        }
+        function equal (e){
+            var calc = eval(input.value)
+            console.log(calc);
+            input.value += e
+            input.value = calc
+        }
+    
+        function erase (e){
+            input.value   = ""
+            console.log(e);
+            }
+            
+        //     function DEL (e){
+                // if(input.value != ""){
+                //     DEL.splice(input, 1)
+                //     console.log(e);
+                // }else{}
+            //     var user = input.value
+            //     del.splice(user, 1)
+            //     console.log(del);
+            // }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>

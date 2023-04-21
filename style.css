@@ -1,0 +1,55 @@
+#body {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M720 742.74C834.95 739.92 910.47 633.09 990.44 550.44 1068.36 469.89 1164.11 392 1167.75 280 1171.45 165.86 1087.1 74.33 1008.56-8.56 926.99-94.65 838.59-192.63 720-192.5 601.48-192.36 506-100.6 432.05-7.95 366.91 73.69 342.12 175.55 342.84 280 343.55 383.6 370.45 483.8 435.9 564.1 509.37 654.24 603.75 745.6 720 742.74' fill='%231c538e'%3e%3c/path%3e%3cpath d='M720 579.42C794.38 577.59 843.24 508.47 894.99 454.99 945.41 402.87 1007.36 352.47 1009.72 280 1012.12 206.15 957.53 146.92 906.71 93.29 853.94 37.58 796.74-25.82 720-25.73 643.31-25.65 581.53 33.73 533.68 93.68 491.53 146.5 475.49 212.42 475.95 280 476.42 347.03 493.82 411.87 536.17 463.83 583.71 522.15 644.78 581.27 720 579.42' fill='%232774c6'%3e%3c/path%3e%3cpath d='M720 416.1C753.81 415.27 776.02 383.85 799.54 359.54 822.46 335.85 850.62 312.94 851.69 280 852.78 246.43 827.97 219.51 804.87 195.13 780.88 169.81 754.88 140.99 720 141.03 685.14 141.07 657.06 168.06 635.31 195.31 616.15 219.32 608.86 249.28 609.07 280 609.28 310.47 617.19 339.94 636.44 363.56 658.05 390.07 685.81 416.94 720 416.1' fill='%23488fdb'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+.num1{
+    background-color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 60px;
+    color: white;
+}
+.num2{
+    background-color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 60px;
+    color: white;
+}
+.num3{
+    background-color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 60px;
+    color: white;
+}
+.num4{
+    background-color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 60px;
+    color: white;
+}
+.num8{
+    background-color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 60px;
+    color: aqua;
+}
+.num7{
+    background-color: orangered ;
+    font-size: 20px;
+    border-radius: 100px;
+    width: 60px;
+    color: white;
+}
+.num7:hover{
+    background-color: aqua;
+}
+.num9{
+    background-color: green;
+    font-size: 20px;
+    border-radius: 100px;
+    width: 60px;
+    color: white;
+}
