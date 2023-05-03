@@ -17,7 +17,7 @@
             <tr>
                 <td><button onclick="number('mc')" class="num8">mc</button></td>
                 <td><button onclick="number('mr')" class="num8">mr</button></td>
-                <td><button onclick="DEL('m-')" class="num8">m-</button></td>
+                <td><button onclick="DEL()" class="num8">DEL</button></td>
                 <td><button onclick="number()" class="num8">m+</button></td>       
             </tr>
         </div>
@@ -71,8 +71,8 @@
         </div>
     </div>
     <script>
-        function number (e) {
-            input.value += e
+        function number (a) {
+            input.value += a
             console.log(e);
         }
         function equal (e){
@@ -82,20 +82,15 @@
             input.value = calc
         }
     
-        function erase (e){
+        function erase (){
             input.value   = ""
-            console.log(e);
+            // console.log(e);
             }
             
-        //     function DEL (e){
-                // if(input.value != ""){
-                //     DEL.splice(input, 1)
-                //     console.log(e);
-                // }else{}
-            //     var user = input.value
-            //     del.splice(user, 1)
-            //     console.log(del);
-            // }
+            function DEL (){
+                  input.value = input.value.slice (0, -1)
+    
+            }
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
